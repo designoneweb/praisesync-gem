@@ -1,0 +1,22 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'navy': '#1E2A52',
+        'gold': '#F4B860',
+        'off-white': '#FAF9F7',
+      },
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif'],
+        'spectral': ['Spectral', 'serif'],
+      },
+    },
+  },
+  plugins: [],
+}

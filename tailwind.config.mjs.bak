@@ -1,0 +1,21 @@
+// Tailwind CSS v4 Configuration
+// Note: In v4, most configuration has moved to CSS directives
+
+import { type Config } from 'tailwindcss'
+
+export default {
+  // Define custom theme variables if needed
+  theme: {
+    extend: {
+      colors: {
+        'navy': '#1E2A52',
+        'gold': '#F4B860',
+        'off-white': '#FAF9F7',
+      },
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif'],
+        'spectral': ['Spectral', 'serif'],
+      },
+    },
+  },
+} satisfies Config
