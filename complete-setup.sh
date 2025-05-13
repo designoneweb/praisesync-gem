@@ -84,6 +84,7 @@ git fetch origin main
 
 # Step 8: Merge
 echo "🔀 Merging GitHub files..."
+git config pull.rebase false  # Use merge (not rebase)
 git pull origin main --allow-unrelated-histories
 
 # Step 9: Show result
